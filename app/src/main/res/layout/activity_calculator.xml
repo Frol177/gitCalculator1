@@ -6,45 +6,33 @@
     android:columnCount="3"
     >
 
-    <TextView
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="@string/printch"
-        android:textSize="20sp"
-        android:layout_columnSpan="3"
-        android:background=""
-        />
-    <TextView
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="@string/print"
-        android:textSize="21sp"
-        android:layout_columnSpan="3"
-        />
-
-
     <Button
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="70dp"
         android:text="@string/_1"
         />
     <Button
         android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
         android:text="@string/_2"
         />
     <Button
         android:id="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
         android:text="@string/_3"
         />
     <Button
         android:id="@+id/btn4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
         android:text="@string/_4"
         />
     <Button
@@ -63,6 +51,7 @@
         android:id="@+id/btn7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
         android:text="@string/_7"
         />
     <Button
@@ -81,6 +70,7 @@
         android:id="@+id/btn0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
         android:text="@string/_0"
         />
     <Button
@@ -100,6 +90,7 @@
         android:id="@+id/btnsub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
         android:text="@string/sub"
         />
     <Button
@@ -123,6 +114,7 @@
         android:text="@string/eq"
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
+        android:layout_marginLeft="70dp"
         />
     <Button
         android:id="@+id/btndel"
